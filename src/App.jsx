@@ -1,12 +1,10 @@
 import React from "react";
 import Form from "./components/Form";
-import Card from "./components/Card";
 
 const App = () => {
   return (
-    <div>
+    <div className="h-screen bg-gray-500 flex  flex-col p-6">
       <Form />
-      <Card />
     </div>
   );
 };
